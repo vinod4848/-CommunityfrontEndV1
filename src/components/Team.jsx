@@ -1,14 +1,18 @@
 import React from "react";
+// import "./Team.css"; // Ensure you create this CSS file for styling
+
 export const Team = (props) => {
   return (
     <div id="team" className="team-section">
       <div className="container">
-        <div className="section-title">
-          <h2>Upcoming Events</h2>
-          <p>
-            Stay updated with our latest events and join us for exciting
-            experiences.
-          </p>
+        <div className="section-header">
+          <div className="section-title">
+            <h2>Upcoming Events</h2>
+            <p>
+              Stay updated with our latest events and join us for exciting experiences.
+            </p>
+          </div>
+          <a href="/all-events" className="see-all-btn">See All</a>
         </div>
         <div className="team-cards">
           {props.data
