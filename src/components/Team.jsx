@@ -1,26 +1,23 @@
 import React from "react";
-
 export const Team = (props) => {
   return (
-    <div id="team" className="text-center">
+    <div id="team" className="team-section">
       <div className="container">
-        <div className="col-md-8 col-md-offset-2 section-title">
-        <h2>Upcoming Events</h2>
-        <p>
-            Stay updated with our latest events and join us for exciting experiences.
+        <div className="section-title">
+          <h2>Upcoming Events</h2>
+          <p>
+            Stay updated with our latest events and join us for exciting
+            experiences.
           </p>
         </div>
-        <div id="row">
+        <div className="team-cards">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
-                  <div className="thumbnail">
-                    {" "}
-                    <img src={d.img} alt="..." className="team-img" />
-                    <div className="caption">
-                      <h4>{d.name}</h4>
-                      <p>{d.job}</p>
-                    </div>
+                <div key={`${d.name}-${i}`} className="team-card">
+                  <img src={d.img} alt={d.name} className="team-img" />
+                  <div className="team-content">
+                    <h4>{d.name}</h4>
+                    <p>{d.job}</p>
                   </div>
                 </div>
               ))
