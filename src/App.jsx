@@ -13,6 +13,10 @@ import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import { Job } from "./components/Job";
+import { BuySell } from "./components/BuySell";
+import { Property } from "./components/Property";
+import { Blogs } from "./components/Blogs";
+import Stepper from "./components/Stepper";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -29,15 +33,19 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
+      <Stepper data={landingPageData.Stepper} />
+    
+      <Team data={landingPageData.Team} />
       {/* <Features data={landingPageData.Features} /> */}
       {/* <About data={landingPageData.About} /> */}
       {/* <Services data={landingPageData.Services} />    */}
       <Job data={landingPageData.Job} />   
       <Matrimonial data={landingPageData.Matrimonial} />   
-      <Team data={landingPageData.Team} />
+      <BuySell data={landingPageData.BuySell} />    
+      <Property data={landingPageData.Property} />    
+      <Blogs data={landingPageData.Blogs} />    
       <Gallery data={landingPageData.Gallery} />
       {/* <Testimonials data={landingPageData.Testimonials} /> */}
-   
       <Contact data={landingPageData.Contact} />
     </div>
   );

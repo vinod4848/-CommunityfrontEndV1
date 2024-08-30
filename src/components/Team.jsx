@@ -8,9 +8,7 @@ export const Team = (props) => {
         <div className="section-header">
           <div className="section-title">
             <h2>Upcoming Events</h2>
-            <p>
-              Stay updated with our latest events and join us for exciting experiences.
-            </p>
+            
           </div>
           <a href="/all-events" className="see-all-btn">See All</a>
         </div>

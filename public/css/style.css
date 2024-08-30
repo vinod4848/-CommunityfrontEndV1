@@ -1195,3 +1195,166 @@ label {
   color: #777;
   font-size: 1em;
 }
+
+.buy-sell-section {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  margin: 0;
+}
+
+.section-title h2 {
+  margin: 0;
+}
+
+.see-all-btn {
+  font-size: 1em;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #007bff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.see-all-btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.buy-sell-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.buy-sell-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+
+.buy-sell-card:hover {
+  transform: translateY(-10px);
+}
+
+.buy-sell-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.buy-sell-content {
+  padding: 20px;
+}
+
+.buy-sell-content h4 {
+  margin-bottom: 10px;
+  font-size: 1.25em;
+}
+
+.buy-sell-content p {
+  color: #777;
+  font-size: 1em;
+}
+
+/* Container for the tabs and content */
+.tabs-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header for the tabs */
+.tabs-header {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  gap: 10px; /* Adds spacing between tabs */
+}
+
+/* Individual tab button styles */
+.tab-button {
+  flex: 1;
+  padding: 12px 15px;
+  border: 2px solid #007bff; /* Blue border for tab buttons */
+  background: transparent; /* Transparent background */
+  color: #007bff; /* Blue text color */
+  cursor: pointer;
+  transition:all 250ms ease-in-out  ;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* Hover effect for tab buttons */
+.tab-button:hover {
+  background-color: #007bff; /* Light background on hover */
+  transform: scale(1.05);
+  color: white;
+  /* padding-inline: 100px; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+/* Active tab button styles */
+.tab-button.active {
+  background-color: #007bff; 
+  color: #ffffff; /* White text */
+  font-weight: bold;
+  border-color: #007bff; /* Blue border for active tab */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Enhanced shadow for active tab */
+}
+
+/* Container for the tab contents */
+.tabs-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Styles for each tab content section */
+.tab-content {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #ffffff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.button-style {
+  display: inline-block;
+  padding: 12px 25px;
+  border: 2px solid #007bff; /* Blue border for button */
+  background-color: transparent; /* Transparent background */
+  color: #ffffff; /* Blue text color */
+  text-align: center;
+  border-radius: 50px; /* Original border radius */
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for the button in tab content */
+.button-style:hover {
+  background-color: #068a8ab2; /* Dark yellow-green background */
+  color: #ffffff; /* White text */
+  border: none; /* Remove border on hover */
+  border-radius: 20px; /* Updated border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}

@@ -1,13 +1,13 @@
 import React from "react";
 
 
-export const Job = (props) => {
+export const Property = (props) => {
   return (
     <div id="job" className="job-section">
       <div className="container">
         <div className="section-header">
           <div className="section-title">
-            <h2>New Jobs</h2>
+            <h2>Property</h2>
           </div>
           <a href="/all-jobs" className="see-all-btn">
             See All

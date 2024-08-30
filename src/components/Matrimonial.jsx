@@ -8,9 +8,7 @@ export const Matrimonial = (props) => {
         <div className="section-header">
           <div className="section-title">
             <h2>Matrimony</h2>
-            <p>
-              Stay updated with our latest events and join us for exciting experiences.
-            </p>
+           
           </div>
           <a href="/all-matrimonials" className="see-all-btn">See All</a>
         </div>

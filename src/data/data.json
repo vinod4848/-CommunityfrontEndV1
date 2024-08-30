@@ -195,6 +195,72 @@
       "job": "Project Manager"
     }
   ],
+  "BuySell": [
+    {
+      "img": "img/team/Punjabi_5.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/Punjabi_5.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/Punjabi_5.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/Punjabi_5.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Property": [
+    {
+      "img": "img/team/Punjabi_5.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/Punjabi_5.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/Punjabi_5.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/Punjabi_5.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Blogs": [
+    {
+      "img": "img/team/Punjabi_5.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/Punjabi_5.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/Punjabi_5.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/Punjabi_5.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
   "Contact": {
     "address": "112, Bussa Industrial Estate, Shankar Rao Naram Path, near Peninsula Corporate Park, Lower Parel West, Lower Parel, Mumbai, Maharashtra 400013",
     "phone": "079771 05170",

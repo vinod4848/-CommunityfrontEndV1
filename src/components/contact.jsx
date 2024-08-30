@@ -15,15 +15,18 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
-    
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        e.target,
+        "YOUR_PUBLIC_KEY"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -154,7 +157,7 @@ export const Contact = (props) => {
           <p>
             &copy; 2024 integrate360.in{" "}
             <a href="https://www.integrate360.in/" rel="nofollow">
-            Integrate360
+              Integrate360
             </a>
           </p>
         </div>
