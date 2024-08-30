@@ -3,7 +3,7 @@ import React from "react";
 
 export const Property = (props) => {
   return (
-    <div id="job" className="job-section">
+    <div id="property" className="job-section">
       <div className="container">
         <div className="section-header">
           <div className="section-title">

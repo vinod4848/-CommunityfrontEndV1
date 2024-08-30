@@ -32,6 +32,7 @@ const App = () => {
   return (
     <div>
       <Navigation />
+      <Stepper/>
       <Header data={landingPageData.Header} />
       <Stepper data={landingPageData.Stepper} />
     

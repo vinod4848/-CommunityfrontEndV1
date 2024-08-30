@@ -3,7 +3,7 @@ import React from "react";
 
 export const Blogs = (props) => {
   return (
-    <div id="job" className="job-section">
+    <div id="blogs" className="job-section">
       <div className="container">
         <div className="section-header">
           <div className="section-title">

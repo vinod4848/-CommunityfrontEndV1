@@ -3,7 +3,7 @@ import React from "react";
 
 export const BuySell = (props) => {
   return (
-    <div id="job" className="job-section">
+    <div id="buySell" className="job-section">
       <div className="container">
         <div className="section-header">
           <div className="section-title">
