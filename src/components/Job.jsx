@@ -1,14 +1,18 @@
 import React from "react";
+// import "./Job.css"; // Ensure you create this CSS file for styling
+
 export const Job = (props) => {
   return (
     <div id="job" className="job-section">
       <div className="container">
-        <div className="section-title">
-          <h2>New Jobs</h2>
-          <p>
-            Stay updated with our latest events and join us for exciting
-            experiences.
-          </p>
+        <div className="section-header">
+          <div className="section-title">
+            <h2>New Jobs</h2>
+            <p>
+              Stay updated with our latest events and join us for exciting experiences.
+            </p>
+          </div>
+          <a href="/all-jobs" className="see-all-btn">See All</a>
         </div>
         <div className="job-cards">
           {props.data

@@ -1,14 +1,18 @@
 import React from "react";
+// import "./Matrimonial.css"; // Ensure you create this CSS file for styling
+
 export const Matrimonial = (props) => {
   return (
-    <div id="Matrimonial" className="matrimonial-section">
+    <div id="matrimonial" className="matrimonial-section">
       <div className="container">
-        <div className="section-title">
-          <h2>Matrimony</h2>
-          <p>
-            Stay updated with our latest events and join us for exciting
-            experiences.
-          </p>
+        <div className="section-header">
+          <div className="section-title">
+            <h2>Matrimony</h2>
+            <p>
+              Stay updated with our latest events and join us for exciting experiences.
+            </p>
+          </div>
+          <a href="/all-matrimonials" className="see-all-btn">See All</a>
         </div>
         <div className="matrimonial-cards">
           {props.data
