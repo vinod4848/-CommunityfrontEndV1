@@ -12,8 +12,12 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  color: #666;
 }
+
+
 
 h2 {
   text-transform: uppercase;
@@ -1166,7 +1170,7 @@ label {
 
 .team-card {
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s ease;
@@ -1394,4 +1398,126 @@ label {
   display: block;
   border-radius: 10px; /* Optional: add some rounding to the images */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add a shadow effect */
+}
+.footer-section {
+  background-color: #6278fe;
+  padding: 2rem 0;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.footer-logo-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-description {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.footer-socials {
+  list-style: none;
+
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.social-link {
+  text-decoration: none;
+  color: #fff; /* Changed to white */
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  
+}
+.social-icon:hover {
+  color: #1d446e;
+  
+}
+
+.footer-links-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fff; /* Changed to white */
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #fff; /* Changed to white */
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.footer-link:hover {
+  color: #1d446e;
+}
+
+.footer-newsletter-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-form {
+  display: flex;
+}
+
+.newsletter-input {
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  flex: 1;
+  color: #000; /* Keeping input text color black for readability */
+}
+
+.newsletter-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  height: 31px;
+  border-radius: 0.25rem;
+  background-color: #145ba8;
+  color: #fff; /* Changed to white */
+  cursor: pointer;
+}
+
+.newsletter-button:hover {
+  background-color: #1d446e;
+}
+
+.footer-divider {
+  border: 0;
+  border-top: 1px solid #e9ecef;
+  margin: 1.5rem 0;
+}
+
+.footer-copy {
+  text-align: center;
+  color: #fff; /* Changed to white */
 }
