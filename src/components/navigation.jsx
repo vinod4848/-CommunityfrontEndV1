@@ -52,15 +52,10 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li className="nav-item mx-2">
-              <a className="btn btn-outline-success" aria-current="page" href="#">
-              Login/Signup
+              <a className="btn btn-outline-success" aria-current="page" href="/buysellDtails">
+              Login/SignUp
               </a>
             </li>
-            {/* <li className="nav-item mx-2">
-              <button className="btn btn-outline-success" type="button">
-                Login
-              </button>
-            </li> */}
           </ul>
         </div>
       </div>
