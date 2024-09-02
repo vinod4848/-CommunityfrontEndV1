@@ -1,62 +1,60 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
 export const Navigation = (props) => {
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
-        <div className="navbar-header">
-          <button
-            type="button"
-            className="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-          >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-          </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            Community{" "}
-          </a>{" "}
-        </div>
-
-        <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#">
+          Community
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <ul className="nav navbar-nav navbar-right">
-            {/* <li>
-              <a href="#features" className="page-scroll">
-                Features
-              </a>
-            </li> */}
-           
-            <li>
-              <a href="#Matrimonial" className="page-scroll">
-              Matrimony
-              </a>
-            </li>
-            <li>
-              <a href="#job" className="page-scroll">
-              Jobs
-              </a>
-            </li>
-            <li>
-              <a href="#portfolio" className="page-scroll">
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href="#about" className="page-scroll">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ms-auto mb-3 mb-lg-0 d-flex">
+            <li className="nav-item mx-2">
+              <a className="nav-link" aria-current="page" href="#">
                 About
               </a>
             </li>
-            <li>
-              <a href="#contact" className="page-scroll">
+            <li className="nav-item mx-2">
+              <a className="nav-link" aria-current="page" href="#">
+                About
+              </a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link" aria-current="page" href="#">
+                About
+              </a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link" aria-current="page" href="#">
+                About
+              </a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link" aria-current="page" href="#">
+                Services
+              </a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link" aria-current="page" href="#">
                 Contact
               </a>
+            </li>
+            <li className="nav-item mx-2">
+              <button className="btn btn-outline-success" type="button">
+                Login
+              </button>
             </li>
           </ul>
         </div>

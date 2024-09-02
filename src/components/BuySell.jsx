@@ -9,7 +9,7 @@ export const BuySell = (props) => {
           <div className="section-title">
             <h2>Buy Sell</h2>
           </div>
-          <a href="/all-jobs" className="see-all-btn">
+          <a href="/buysellDtails" className="see-all-btn">
             See All
           </a>
         </div>

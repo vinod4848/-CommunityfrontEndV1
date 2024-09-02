@@ -182,7 +182,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  /* background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -240,90 +240,6 @@ a:focus,
 }
 
 /* Header Section */
-@keyframes backgroundSlide {
-  0% {
-    background-image: url(../img/test.jpg);
-  }
-
-  14% {
-    background-image: url(../img/test2.jpg);
-  }
-
-  28% {
-    background-image: url(../img/test3.jpg);
-  }
-
-  42% {
-    background-image: url(../img/test4.jpg);
-  }
-
-  56% {
-    background-image: url(../img/test5.jpg);
-  }
-
-  70% {
-    background-image: url(../img/test6.jpg);
-  }
-
-  84% {
-    background-image: url(../img/test7.jpg);
-  }
-
-  100% {
-    background-image: url(../img/test8.jpg);
-  }
-}
-
-.intro {
-  display: table;
-  width: 100%;
-  margin-top: -20;
-  height: 100vh !important;
-  padding: 0;
-
-  background-color: #e5e5e5;
-  background-size: cover;
-  animation: backgroundSlide 30s infinite;
-  animation-timing-function: ease-in-out;
-}
-
-.intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
-  height: 100%;
-  display: grid;
-  place-items: center;
-  padding-top: 2rem;
-}
-
-.intro h1 {
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-  font-size: 82px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-.intro h1 span {
-  font-weight: 800;
-  color: #5ca9fb;
-}
-
-.intro p {
-  color: #fff;
-  font-size: 22px;
-  font-weight: 300;
-  line-height: 30px;
-  margin: 0 auto;
-  margin-bottom: 60px;
-}
-
-header .intro-text {
-
-  text-align: center;
-}
-
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -1287,6 +1203,13 @@ label {
 }
 
 /* Header for the tabs */
+.header{
+  height: 90vh;
+}
+.c-img{
+  object-fit: cover;
+  height: 100%;
+}
 .tabs-header {
   display: flex;
   flex-wrap: wrap;

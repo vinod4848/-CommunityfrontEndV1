@@ -1,5 +1,4 @@
 import React from "react";
-// import "./Matrimonial.css"; // Ensure you create this CSS file for styling
 
 export const Matrimonial = (props) => {
   return (
@@ -8,9 +7,10 @@ export const Matrimonial = (props) => {
         <div className="section-header">
           <div className="section-title">
             <h2>Matrimony</h2>
-           
           </div>
-          <a href="/all-matrimonials" className="see-all-btn">See All</a>
+          <a href="/buysellDtails" className="see-all-btn">
+            See All
+          </a>
         </div>
         <div className="matrimonial-cards">
           {props.data
