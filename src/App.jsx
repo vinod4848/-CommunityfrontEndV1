@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import { Navigation } from "./components/navigation";
 import  {Header}  from "./components/header";
-import { Gallery } from "./components/gallery";
+// import { Gallery } from "./components/gallery";
 import { Matrimonial } from "./components/Matrimonial";
 import { Team } from "./components/Team";
 import Contact from "./components/contact";
@@ -36,7 +36,7 @@ const App = () => {
       <BuySell data={landingPageData.BuySell} />
       <Property data={landingPageData.Property} />
       <Blogs data={landingPageData.Blogs} />
-      <Gallery data={landingPageData.Gallery} />
+      {/* <Gallery data={landingPageData.Gallery} /> */}
       <Contact data={landingPageData.Contact} />
     </div>
   );
